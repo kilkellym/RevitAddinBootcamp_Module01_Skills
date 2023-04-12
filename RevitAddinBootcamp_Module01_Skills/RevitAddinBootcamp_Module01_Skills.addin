@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>RevitAddinBootcamp_Module01_Skills - Command 1</Text>
+    <Description>Some description for RevitAddinBootcamp_Module01_Skills</Description>
+    <Assembly>RevitAddinBootcamp_Module01_Skills.dll</Assembly>
+    <FullClassName>RevitAddinBootcamp_Module01_Skills.Command1</FullClassName>
+    <ClientId>964b5ad1-0c91-4133-a9bf-5a96957b021d</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RevitAddinBootcamp_Module01_Skills - Command 2</Text>
+    <Description>Some description for RevitAddinBootcamp_Module01_Skills</Description>
+    <Assembly>RevitAddinBootcamp_Module01_Skills.dll</Assembly>
+    <FullClassName>RevitAddinBootcamp_Module01_Skills.Command2</FullClassName>
+    <ClientId>071c44cd-00c8-42e3-8ec3-3caab21a0dae</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RevitAddinBootcamp_Module01_Skills</Name>
+    <Assembly>RevitAddinBootcamp_Module01_Skills.dll</Assembly>
+    <FullClassName>RevitAddinBootcamp_Module01_Skills.App</FullClassName>
+    <ClientId>24122831-49c2-4e95-af13-8516c3f6e986</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
