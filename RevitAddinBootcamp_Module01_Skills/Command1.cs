@@ -200,11 +200,12 @@ namespace RevitAddinBootcamp_Module01_Skills
             // by creating a Filtered Element Collector
             FilteredElementCollector collector2 = new FilteredElementCollector(doc);
             collector2.OfCategory(BuiltInCategory.OST_TitleBlocks);
+            collector2.WhereElementIsElementType();
 
             // create a sheet
             ViewSheet newSheet = ViewSheet.Create(doc, collector2.FirstElementId());
             newSheet.Name = "My New Sheet";
-            newSheet.SheetNumber = "A101";
+            newSheet.SheetNumber = "A103";
 
             // add a view to a sheet using a Viewport - show in API
             // first create a point
